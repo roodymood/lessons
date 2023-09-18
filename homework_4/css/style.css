@@ -1,0 +1,36 @@
+@import url("reset.css");
+
+/* Звернення до всіх об'єктів */
+* {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Селектор тегу */
+body {
+	background-color: #b4b2b2;
+}
+li {
+	color: rgb(151, 124, 5);
+}
+
+/* Селектор класів */
+.content-base__text-block1,
+.content-base__text-block2,
+.content-base__text-block3,
+.content-base__text-block4,
+.content-base__text-block5 {
+	color: blue;
+}
+.nav-link {
+	color: rgb(241, 12, 12);
+}
+
+/* Селектор атрибуту */
+[class*="__text-block2"]{
+	color: rgb(244, 4, 4);
+}
+
+/* Селектор ID */
+#main-letter {
+	color: red;
+}

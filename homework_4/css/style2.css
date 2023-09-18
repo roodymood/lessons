@@ -1,0 +1,22 @@
+@import url(reset.css);
+
+/* Селектор тегу */
+h2 {
+	color: green;
+}
+
+/* Селектор тегу з класом */
+div.text-block {
+	color: blue;
+}
+
+/* Селектор класів, звернення до об'єктів з двома класами одночасно */
+.header-menu__item.page-link {
+	color: red;
+}
+
+/* Селектор кількох об'єктів з різними класами  */
+.content-top__title,
+.content-top__subitle {
+	color: brown;
+}

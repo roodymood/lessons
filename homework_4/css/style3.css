@@ -1,0 +1,31 @@
+@import url(reset.css);
+
+/* Селектор усіх тегів Р в середині об'єктів с класом .content-base__text-block1 */
+.content-base__text-block1 p {
+	color: blue;
+}
+
+/* Селектор об'єкті в з класом  .minor-p в середині класу .content-base__text-block3*/
+.content-base__text-block3 .minor-p {
+	color:red
+}
+
+/* Селектор усіх об'єктів в середині класу .content-base__text-block4 */
+.content-base__text-block4 * {
+	color: orange;
+}
+
+/* Селектор тегів Р безпосередньо вкладених в об'єкти з класом .content-base__text-block5  */
+.content-base__text-block5 > p {
+	color: green;
+}
+
+/* Селектор всіх тегів Р, які йдуть наст.по коду після об'єктів з класом .text-block2__major-p, на тому ж рівні вкладеності */
+.text-block2__major-p ~ p {
+	color: yellow;
+}
+
+/* Селектор тегу Р, наступного по коду після об'єктів з класом .text-block2__major-p, на тому ж рівні вкладеності */
+.text-block1__minor-p + p {
+	color: purple;
+}
