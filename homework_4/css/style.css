@@ -1,0 +1,26 @@
+@import url("reset.css");
+* {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+	background-color: #b4b2b2;
+}
+li {
+	color: rgb(151, 124, 5);
+}
+.content-base__text-block1,
+.content-base__text-block2,
+.content-base__text-block3,
+.content-base__text-block4,
+.content-base__text-block5 {
+	color: blue;
+}
+.nav-link {
+	color: rgb(241, 12, 12);
+}
+[class*="__text-block2"]{
+	color: rgb(244, 4, 4);
+}
+#main-letter {
+	color: red;
+}

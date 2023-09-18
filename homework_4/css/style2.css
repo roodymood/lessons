@@ -1,0 +1,18 @@
+@import url(reset.css);
+
+h2 {
+	color: green;
+}
+
+div.text-block {
+	color: blue;
+}
+
+.header-menu__item.page-link {
+	color: red;
+}
+
+.content-top__title,
+.content-top__subitle {
+	color: brown;
+}

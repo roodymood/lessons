@@ -1,0 +1,20 @@
+@import url(reset.css);
+
+.content-base__text-block1 p {
+	color: blue;
+}
+.content-base__text-block3 .minor-p {
+	color:red
+}
+.content-base__text-block4 * {
+	color: orange;
+}
+.content-base__text-block5 > p {
+	color: green;
+}
+.text-block2__major-p ~ p {
+	color: yellow;
+}
+.text-block1__minor-p + p {
+	color: purple;
+}
