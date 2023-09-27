@@ -1,0 +1,46 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+
+body {
+	font-family: Inter;
+	padding: 5px;
+}
+.wrap-container {
+	width: 1250px;
+	height: 520px;
+	background-color: #FFF9F4;
+}
+h4 {
+	font-family: "DM Serif Text";
+	font-size: 59px;
+	line-height: 1.47;
+	margin-bottom: 17px;
+	color: #0E333D;
+}
+h5 {
+	font-size: 28px;
+	line-height: normal;
+	padding-top: 15px;
+	margin-bottom: 15px;
+	color: #D06B00;
+}
+.text-block > p {
+	font-size: 20px;
+	line-height: 1.8;
+	color: #474747;
+}
+.block-images > img {
+	width: 273px;
+	height: 518px;
+	margin-left: 15px;
+	transform: scale(-1, 1);
+}
+.text-block {
+	display: inline-block;
+	width: 650px;
+	height: 518px;
+}
+.block-images {
+	display: inline;
+}
