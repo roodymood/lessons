@@ -1,0 +1,99 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+	font-family: Causten, sans-serif ;
+	padding: 30px;
+}
+.wrap-game {
+	margin: 0 auto;
+	width: 800px;
+	height: 800px;
+	border: 1px solid black;
+}
+.block1 {
+	margin-right: 750px;
+	height: 100px;
+	background-color: rgb(97, 219, 16);
+}
+.block2 {
+	margin: 0 400px 0 0;
+	height: 50px;
+	visibility: hidden;
+	background-color: rgb(131, 219, 16);
+}
+.block3 {
+	margin: 0 430px 0 350px;
+	height: 70px;
+	visibility: hidden;
+	background-color: rgb(182, 219, 16);
+}
+.block4 {
+	margin: 0 430px 0 20px;
+	height: 13px;
+	visibility: hidden;
+	background-color: rgb(216, 219, 16);
+}
+.block5 {
+	margin: 0 740px 0px 20px;
+	height: 350px;
+	visibility: hidden;
+	background-color: rgb(219, 189, 16);
+}
+.block6{
+	font-size: 0;
+}
+.block6-1 {
+	display: inline-block;
+	margin: 0 0px 0 20px;
+	height: 50px;
+	width: 200px;
+	vertical-align: top;
+	visibility: hidden;
+	background-color: rgb(219, 155, 16);
+}
+.block6-2 {
+	display: inline-block;
+	margin: 0px 0px 235px 0px;
+	height: 100px;
+	width: 30px;
+	visibility: hidden;
+	background-color: rgb(219, 114, 16);
+}
+.block6-3 {
+	display: inline-block;
+	margin: 0 0px 235px 0px;
+	height: 20px;
+	width: 200px;
+	visibility: hidden;
+	background-color: rgb(219, 30, 16);
+}
+.finish{
+	display: inline-block;
+	visibility: hidden;
+}
+.finish>img{
+	margin-top: -420px;
+	width: 300px;
+	height: 200px;
+	border-radius: 15px;
+	box-shadow: 3px 3px 5px rgba(255, 145, 2, 0.884);
+}
+.block1:hover + .block2,
+.block2:hover,
+.block2:hover + .block3,
+.block3:hover, 
+.block3:hover + .block4,
+.block4:hover,
+.block4:hover + .block5,
+.block5:hover,
+.block5:hover + .block6>.block6-1,
+.block6-1:hover,
+.block6>.block6-1:hover + .block6-2,
+.block6-2:hover,
+.block6>.block6-2:hover + .block6-3,
+.block6-3:hover,
+.block6>.block6-3:hover + .finish,
+.finish:hover {
+	visibility: visible;
+}
