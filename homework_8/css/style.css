@@ -1,0 +1,199 @@
+@import url("reset.css");
+
+body {
+	padding: 20px;
+}
+.practies-wrap * {
+	font-family: Causten, sans-serif;
+}
+.practies-wrap {
+	margin: 0 auto 30px;
+}
+[class*='practies']:not(.practies-wrap, [class*='__items-box']){
+	border: 1px solid darkslategrey;
+}
+[class*='practies-section-']{
+	margin-bottom: 30px;
+}
+.practies-wrap>[class*='practies-section'] {
+	background-color: rgba(95, 158, 160, 0.144);
+	box-shadow: inset -7px -7px 5px -6px rgba(28,3,45,0.98),
+	inset 7px 7px 5px -6px rgba(28,3,45,0.98);
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 0;
+}
+[class$="__items-box"] {
+	text-align: center;
+}
+[class$="__items-box"]:last-child{
+	margin-bottom: 0px;
+}
+.practies-section__title{
+	background-color: #bfaedabe;
+	box-shadow: -5px -5px 5px -6px rgba(28,3,45,0.98),
+	5px 5px 5px -6px rgba(28,3,45,0.98);
+	text-align: center;
+	font-style: italic;
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: capitalize;
+	padding: 2px;
+	margin-bottom: 15px;
+	border-radius: 7px;
+}
+.practies-item {
+	border-radius: 7px;
+	box-shadow: -5px -5px 5px -6px rgba(28,3,45,0.98),
+	5px 5px 5px -6px rgba(28,3,45,0.98);
+	display: inline-block;
+	vertical-align: middle;
+	overflow: auto;
+	font-size: 18px;
+	font-weight: 500;
+	margin-right: 12px;
+	margin-bottom: 15px;
+	padding: 3px;
+}
+.practies-item:last-of-type{
+	margin-bottom: 0px;
+}
+
+.practies-section-1__items-box>:nth-child(odd){
+	background-color: #ecfd00;
+}
+.practies-section-1__items-box>:nth-child(even){
+	background-color: #0086f3;
+}
+[class$="1__items-box"]>.practies-item {
+	max-width: 180px;
+	max-height: 115px;
+}
+
+.practies-section-2{
+	background-image: linear-gradient(0deg, rgba(60,222,224,0.6952941210663953) 0%, rgba(232,185,255,0.7) 100%);
+}
+.practies-section-2__items-box>.practies-item {
+	background-size: contain;
+	width: 300px;
+	height: 250px;
+}
+.practies-section-2__items-box>:nth-child(1) {
+	background-image: url(../img/bg-small-1.jpg);	
+}
+.practies-section-2__items-box>:nth-child(2) {
+	background-image: url(../img/bg-small-2.jpg);
+}
+.practies-section-2__items-box>:nth-child(3) {
+	background-image: url(../img/bg-small-3.jpg);
+}
+
+.practies-section-3{
+	background-image: linear-gradient(0deg, rgba(60,222,224,0.6952941210663953) 0%, rgba(212,255,47,0.7513165300299808) 100%);
+}
+[class$="3__items-box"]>.practies-item {
+	width: 400px;
+	height: 250px;
+	background-size: 100px;
+}
+.practies-section-3__items-box>:nth-child(1) {
+	background-image: url(../img/bg-small-1.jpg);
+	background-repeat: repeat-x;
+}
+.practies-section-3__items-box>:nth-child(2) {
+	background-image: url(../img/bg-small-2.jpg);
+	background-repeat: no-repeat;
+}
+.practies-section-3__items-box>:nth-child(3) {
+	background-image: url(../img/bg-small-3.jpg);
+	background-repeat: repeat-y;
+}
+
+.practies-section-4{
+	background-image: radial-gradient(circle, rgba(255,17,17,0.5412324964165354) 0%, rgba(252,201,70,1) 100%);
+}
+[class$="4__items-box"]>.practies-item {
+	width: 300px;
+	height: 300px;
+	background-size: 70px;
+	background-repeat: no-repeat;
+}
+.practies-section-4__items-box>:nth-child(1) {
+	background-position: center;
+	background-image: url(../img/bg-small-4.jpg);
+}
+.practies-section-4__items-box>:nth-child(2) {
+	background-position: left;
+	background-image: url(../img/bg-small-5.jpg);
+}
+.practies-section-4__items-box>:nth-child(3) {
+	background-position: right;
+	background-image: url(../img/bg-small-6.jpg);
+}
+.practies-section-4__items-box>:nth-child(4) {
+	background-position: 50%;
+	background-image: url(../img/bg-small-7.svg);
+}
+.practies-section-4__items-box>:nth-child(5) {
+	background-position:bottom;
+	background-image: url(../img/bg-small-8.svg);
+}
+.practies-section-4__items-box>:nth-child(6) {
+	background-position: 30%;
+	background-image: url(../img/bg-small-3.jpg);
+}
+.practies-section-4__items-box>:nth-child(7) {
+	background-position: 75%;
+	background-image: url(../img/bg-small-5.jpg);
+}
+.practies-section-4__items-box>:nth-child(8) {
+	background-position:25% 15%;
+	background-image: url(../img/bg-small-1.jpg);
+}
+.practies-section-4__items-box>:nth-child(9) {
+	background-position: 90% 90%;
+	background-image: url(../img/bg-small-2.jpg);
+}
+.practies-section-4__items-box>:nth-child(10) {
+	background-position:90% 20%;
+	background-image: url(../img/bg-small-4.jpg);
+}
+
+.practies-section-5{
+	background-image: radial-gradient(circle, rgba(0,247,91,1) 0%, rgba(29,253,183,0.2163025244277399) 50%, rgba(69,252,231,1) 100%);
+}
+[class$="5__items-box"]>.practies-item {
+	width: 1000px;
+	height: 200px;
+	font-size: 25px;
+}
+.practies-section-5__items-box>:nth-child(1) {
+	background-size: 100% auto;
+	background-position: center;
+	background-attachment:fixed;
+	background-image: url(../img/big-1.jpg);
+}
+.practies-section-5__items-box>:nth-child(2) {
+	background-size: 100% auto;
+	background-position: center;
+	background-attachment:scroll;
+	background-image: url(../img/big-1.jpg);
+}
+
+.practies-section-6{
+	background-image: radial-gradient(circle, rgba(49,44,77,1) 0%, rgba(83,105,158,1) 44%, rgba(181,206,245,1) 84%);
+}
+[class$="6__items-box"]>.practies-item {
+	width: 1000px;
+	height: 200px;
+	font-size: 25px;
+}
+.practies-section-6__items-box>:nth-child(1){
+	background: url("../img/colour-squer-big.jpg") 0 0 / auto no-repeat fixed; 
+}
+.practies-section-6__items-box>:nth-child(2) {
+	background:
+		url("../img/skyscraper-big.jpg") 0 0 / 200px no-repeat,
+		url("../img/forest-big.jpg") right bottom / 200px no-repeat,
+		linear-gradient(90deg, #ff3f3a 0%, #3a3dff 50%, #f75e05 100%);
+}
